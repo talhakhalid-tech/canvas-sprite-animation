@@ -6,7 +6,8 @@ window.onload = function () {
   const context = canvas.getContext("2d");
 
   const img = new Image();
-  img.src = "/tile.png";
+  img.src = "tile.png";
+
   img.onload = () => {
     var cellWidth = 192;
     var cellHeight = 200;
