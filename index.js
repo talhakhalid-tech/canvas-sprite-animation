@@ -19,7 +19,7 @@ window.onload = function () {
         cellWidth,
         cellHeight,
         // 350,
-        (canvas.width / 8) * count,
+        (canvas.width / 8) * count - cellWidth / 2,
         75,
         cellWidth,
         cellHeight
